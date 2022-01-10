@@ -1,16 +1,16 @@
-# Zaid Backup
+# 𝐀𝐋𝐈𝐄𝐍 𝐗 Backup
 
 For Any Query Join Our Support Group 👥
 
-<a href="https://t.me/SUPERIOR_BOTS"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-<a href="https://t.me/SUPERIOR_SUPPORT"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="https://t.me/ALIEN_ROBOT"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="https://t.me/ALIEN_X_SUPPORT"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
 
 Hey Welcome To Here 💫💫 You Can Make Your Own Management Bot
 
 
-[![Zaid Backup LOGO](https://telegra.ph/file/c28fea3154adf03b561c3.jpg)](https://t.me/SUPERIOR_SUPPORT )
+[![Zaid Backup LOGO](https://telegra.ph/file/e7e1e2d563432071ae730.jpg)](https://t.me/ALIEN_X_SUPPORT )
 
-🔥 𝐃𝐄𝐏𝐋𝐎𝐘 𝐎𝐍 𝐘𝐎𝐔𝐑 𝐎𝐖𝐍 𝐑𝐈𝐒𝐊 🔥
+⚡️ 𝐌𝐀𝐓 𝐊𝐀𝐑 𝐃𝐄𝐏𝐋𝐎𝐘 ⚡️
 
-Don't Ask For How to Run These Codes = Ban... In Our Support Groups.... be Carefull
+ᴀɴᴅɪ ʙᴀɴᴅɪ ꜱʜᴀɴᴅɪ ʀᴇᴘᴏ ᴋɪʏᴀ ʏᴀ ꜰᴏʀᴋ ᴛᴜᴍ ʀᴀɴᴅɪ 
