@@ -9,7 +9,7 @@ For Any Query Join Our Support Group 👥
 Hey Welcome To Here 💫💫 You Can Make Your Own Management Bot
 
 
-[![Zaid Backup LOGO](https://telegra.ph/file/e7e1e2d563432071ae730.jpg)](https://t.me/ALIEN_X_SUPPORT )
+[![ALIEN Backup LOGO](https://telegra.ph/file/e7e1e2d563432071ae730.jpg)](https://t.me/ALIEN_X_SUPPORT )
 
 ⚡️ 𝐌𝐀𝐓 𝐊𝐀𝐑 𝐃𝐄𝐏𝐋𝐎𝐘 ⚡️
 
