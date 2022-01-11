@@ -1,14 +1,15 @@
 {
-      "name": "Alien X",
-      "description": "An Alien themed Telegram group management bot.",
+      "name": "╚»𝐀𝐋𝐈𝐄𝐍 𝐗«╝ Robot",
+      "description": "Telegram group management bot.",
+      "logo": "https://telegra.ph/file/e7e1e2d563432071ae730.jpg",
       "keywords": [
          "telegram",
          "anime",
          "group",
          "manager",
-         "PglRobot"
+         "TGN"
       ],   
-   "repository": "https://github.com/mukund123456/Zaid-Robot",
+   "repository": "https://github.com/Itsunknown-12/TGN-Robot.git",
    "addons": [
       {
          "options": {
@@ -16,10 +17,18 @@
          },
          "plan": "heroku-postgresql"
       }
-   ],
+   ],	
+   "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "heroku/python"
+    }     
+  ],  
    "env": {
       "TOKEN": {
-         "description": "Your bot token. Get one from @BotFather ",
+         "description": "Your bot token. Get one from @BotFather duh",
          "required": true,
          "value": ""
       },
@@ -41,18 +50,44 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "2037383054"
+         "value": "1669178360"
+      },
+      "BOT_ID": {
+         "description": "Your bot ID.. Use any other bot to get it.",
+         "required": true,
+         "value": ""
+      },
+      "HEROKU_API_KEY": {
+        "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
+        "value": ""
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Enter the Heroku app name here (Must an exact same name with your input above).",
+        "required": false
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "DesiNobita"
+         "value": "Timesisnotwaiting"
       },
       "SUPPORT_CHAT": {
-         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: PglRobot. If this ever points to PglRobot support than consider you made an enemy.",
+         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "Suzune_Support"
+         "value": "GodfatherSupport"
       },
-      "EVENT_LOGS": {
+      "MONGO_DB_URI": {
+         "description": "Required for database connections.",
+         "required": true,
+         "value": ""
+      },
+      "IBM_WATSON_CRED_URL": {
+         "description": "This is required for the speech to text module. Get your USERNAME from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
+         "required": false
+     },
+     "IBM_WATSON_CRED_PASSWORD": {
+        "description": "This is required for the speech to text module. Get your PASSWORD from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
+        "required": false
+     },
+     "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
          "value": "-123456798"
@@ -72,10 +107,15 @@
          "required": true,
          "value": "-xyz"
       },
+      "API_OPENWEATHER": {
+        "description": "Get your own APPID from https://api.openweathermap.org/data/2.5/weather",
+        "value": "",
+        "required": false
+      },
       "DEV_USERS": {
-         "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother PglRobot support then keep the current ID's here at they are and add yours.",
+         "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "2037383054"
+         "value": "1669178360"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -87,14 +127,14 @@
          "value": "True"
       },
       "DRAGONS": {
-         "description": "A space separated list of user IDs who you want to assign as sudo users. After existing Id add yours. ",
+         "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "2037383054"
+         "value": ""
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "2037383054"
+         "value": ""
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
@@ -128,7 +168,7 @@
       "No_LOAD": {
          "description": "Dont load these modules cause they shit, space separation",
          "required": false,
-         "value": "cleaner rss connection"
+         "value": "rss"
       }, 
       "BL_CHATS": {
          "description": "List of chats you want blacklisted.",
@@ -142,7 +182,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "No Thanks Me Rich"
+         "value": "https://t.me/GodfatherSupport"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
@@ -156,7 +196,7 @@
       "BAN_STICKER": {
          "description": "ID of the sticker you want to use when banning people.",
          "required": false,
-         "value": "CAACAgQAAx0CU_rCTAABAczQXyBOv1TsVK4EfwnkCUT1H0GCkPQAAtwAAwEgTQaYsMtAltpEwhoE"
+         "value": ""
       },
       "WALL_API": {
          "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/",
